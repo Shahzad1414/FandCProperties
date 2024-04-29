@@ -3,7 +3,7 @@ import React from 'react'
 const GridSection = () => {
   return (
     <div className="relative md:mb-20 flex flex-col items-center max-w-screen-xl mx-auto md:flex-row sm:py-8">
-    <div className="flex items-center md:w-1/2 ">
+    <div className="flex items-center md:w-1/2 sm:w-2/2">
         <div className="text-left">
             <h2
                 className="text-5xl font-semibold leading-10 tracking-tight text-black-600 sm:text-3xl sm:leading-none md:text-5xl">
@@ -26,7 +26,7 @@ const GridSection = () => {
             </div>
         </div>
     </div>
-    <div className="flex items-center md:w-1/2 ">
+    <div className="flex items-center md:w-1/2 sm:w-2/2 ">
         <div className="relative w-full rounded  ">
             <div className="rounded-lg bg-white text-black w-full flex justify-end">
                 <img className='rounded-xl' src="https://picsum.photos/400/300" />

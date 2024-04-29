@@ -6,7 +6,7 @@ import MoreAbout from "./MoreAbout"
 
 const Home = () => {
   return (
-    <div className="md:px-14 max-w-screen-2xl mx-auto mt-8">
+    <div className="sm:px-14 max-w-screen-2xl mx-auto mt-8">
         <Banner/>
         <GridSection />
         <DownloadBrochure />

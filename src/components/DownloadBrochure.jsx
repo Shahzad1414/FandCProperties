@@ -26,7 +26,8 @@ const DownloadBrochure = () => {
         <Button text="Download Brochure" />
       </div>
     </div>
-    <div className="absolute right-0 mt-5 md:p-10 lg:p-0 sm:pb-0">
+    <div></div>
+    <div className="sm:relative md:relative lg:absolute xl:absolute lg:right-0 xl:right-0 lg:mt-5 xl:mt-5 md:p-10 lg:p-0 sm:pb-0">
       <img
         id="heroImg1"
         className=" transition-all duration-300 ease-in-out hover:scale-105 "
